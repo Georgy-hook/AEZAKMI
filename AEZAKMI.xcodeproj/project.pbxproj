@@ -6,13 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F7568BBE2D05F81700CCF1F0 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = F7568BBD2D05F81700CCF1F0 /* CachedAsyncImage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F7EB75302D02FBE60049E8FB /* AEZAKMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AEZAKMI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F7568BC92D05FA6900CCF1F0 /* Exceptions for "AEZAKMI" folder in "AEZAKMI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F7EB752F2D02FBE60049E8FB /* AEZAKMI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F7EB75322D02FBE60049E8FB /* AEZAKMI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F7568BC92D05FA6900CCF1F0 /* Exceptions for "AEZAKMI" folder in "AEZAKMI" target */,
+			);
 			path = AEZAKMI;
 			sourceTree = "<group>";
 		};
@@ -23,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7568BBE2D05F81700CCF1F0 /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +83,7 @@
 			);
 			name = AEZAKMI;
 			packageProductDependencies = (
+				F7568BBD2D05F81700CCF1F0 /* CachedAsyncImage */,
 			);
 			productName = AEZAKMI;
 			productReference = F7EB75302D02FBE60049E8FB /* AEZAKMI.app */;
@@ -94,6 +113,9 @@
 			);
 			mainGroup = F7EB75272D02FBE60049E8FB;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F7568BBC2D05F81700CCF1F0 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F7EB75312D02FBE60049E8FB /* Products */;
 			projectDirPath = "";
@@ -127,6 +149,8 @@
 /* Begin XCBuildConfiguration section */
 		F7EB75412D02FBE70049E8FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = F7EB75322D02FBE60049E8FB /* AEZAKMI */;
+			baseConfigurationReferenceRelativePath = ConfigFile.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -190,6 +214,8 @@
 		};
 		F7EB75422D02FBE70049E8FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = F7EB75322D02FBE60049E8FB /* AEZAKMI */;
+			baseConfigurationReferenceRelativePath = ConfigFile.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -246,6 +272,8 @@
 		};
 		F7EB75442D02FBE70049E8FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = F7EB75322D02FBE60049E8FB /* AEZAKMI */;
+			baseConfigurationReferenceRelativePath = ConfigFile.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -255,6 +283,7 @@
 				DEVELOPMENT_TEAM = C3BZB3Q66B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AEZAKMI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -275,6 +304,8 @@
 		};
 		F7EB75452D02FBE70049E8FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = F7EB75322D02FBE60049E8FB /* AEZAKMI */;
+			baseConfigurationReferenceRelativePath = ConfigFile.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -284,6 +315,7 @@
 				DEVELOPMENT_TEAM = C3BZB3Q66B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AEZAKMI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,6 +356,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F7568BBC2D05F81700CCF1F0 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F7568BBD2D05F81700CCF1F0 /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7568BBC2D05F81700CCF1F0 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F7EB75282D02FBE60049E8FB /* Project object */;
 }

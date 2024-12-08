@@ -13,7 +13,7 @@ final class PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        self.container = NSPersistentContainer(name: "FavoritesDataModel")
+        self.container = NSPersistentContainer(name: "FavoritesCountriesDataModel")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }

@@ -1,0 +1,15 @@
+//
+//  ConfigFile.xcconfig
+//  Countries
+//
+//  Created by Георгий Глухов on 08.12.2024.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+// Release.xcconfig
+API_BASE_URL = https:/$()/restcountries.com
+API_VERSION = v3.1
+
